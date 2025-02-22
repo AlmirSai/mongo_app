@@ -1,0 +1,50 @@
+# Golang
+/bin/
+/pkg/
+/vendor/
+/**/*.exe
+**/*.test
+**/*.out
+**/*.log
+**/*.cache
+**/*.tmp
+*.sum
+*.mod
+
+# Node.js / TypeScript / React
+node_modules/
+dist/
+.build/
+.npm/
+.yarn/
+*.log
+*.tsbuildinfo
+
+# PostgreSQL
+*.pgdata
+*.sql
+*.dump
+db-backups/
+pg_logs/
+pgdata/
+
+# Docker
+*.dockerignore
+docker-compose.override.yml
+docker-compose.override.*
+/.docker/
+docker-sync.yml
+docker-sync/
+docker-compose*.yml
+
+# Editor / OS Files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Postman
+postman/
+*.postman_collection.json
